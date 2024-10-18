@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T16:57:57 IST" name="Default suite" finished-at="2024-10-18T17:04:17 IST" duration-ms="380374">
+    <groups>
+      <group name="Regression">
+        <method signature="O1_LoginTests.validLogin()[pri:1, instance:Tests.O1_LoginTests@26794848]" name="validLogin" class="Tests.O1_LoginTests"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="O1_LoginTests.validLogin()[pri:1, instance:Tests.O1_LoginTests@26794848]" name="validLogin" class="Tests.O1_LoginTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-10-18T16:57:57 IST" name="Default test" finished-at="2024-10-18T17:04:17 IST" duration-ms="380374">
+      <class name="Tests.O1_LoginTests">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T16:57:57 IST" name="report" finished-at="2024-10-18T16:57:57 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="chromeDriver()[pri:0, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T16:57:57 IST" name="chromeDriver" finished-at="2024-10-18T16:58:02 IST" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeDriver -->
+        <test-method signature="validLogin()[pri:1, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T16:58:02 IST" name="validLogin" finished-at="2024-10-18T16:58:20 IST" duration-ms="18013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="invalidLogin()[pri:2, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T16:58:20 IST" name="invalidLogin" finished-at="2024-10-18T16:58:38 IST" duration-ms="17888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin2()[pri:3, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T16:58:38 IST" name="invalidLogin2" finished-at="2024-10-18T16:58:56 IST" duration-ms="18091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin2 -->
+        <test-method signature="invalidLogin3()[pri:4, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T16:58:56 IST" name="invalidLogin3" finished-at="2024-10-18T16:59:14 IST" duration-ms="17819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin3 -->
+        <test-method signature="invalidLogin4()[pri:5, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T16:59:14 IST" name="invalidLogin4" finished-at="2024-10-18T17:04:16 IST" duration-ms="302307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin4 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T17:04:16 IST" name="quitDriver" finished-at="2024-10-18T17:04:17 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="reportQuit()[pri:0, instance:Tests.O1_LoginTests@26794848]" started-at="2024-10-18T17:04:17 IST" name="reportQuit" finished-at="2024-10-18T17:04:17 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportQuit -->
+      </class> <!-- Tests.O1_LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
